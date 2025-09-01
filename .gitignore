@@ -1,0 +1,15 @@
+# Ignore Obsidian config
+.obsidian/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Private folders
+0-Inbox/
+Scratch/
+
+# Optional: screenshots
+*.png
+*.jpg
+*.jpeg

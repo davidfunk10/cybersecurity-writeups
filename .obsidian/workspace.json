@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "CTF-Challenge-Template.md"
             }
+          },
+          {
+            "id": "f44a310eb53786d9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "256a4774c1cb64e4",
@@ -176,6 +189,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -185,7 +199,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b1cc725bd7379c86",
+  "active": "f44a310eb53786d9",
   "lastOpenFiles": [
     "CTF Notes/picoCTF/picoCTF - Newboss.md",
     "Templates/CTF-Challenge-Template.md.md",
