@@ -1,1 +1,1 @@
-This is where I will document picoCTF challenges and CTFs. 
+Writeups from picoCTF and other CTF challenges, documenting methodology and technical concepts.
