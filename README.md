@@ -18,11 +18,14 @@ Each writeup outlines:
 ## Structure
 
 htb/
+
 picoctf/
+
 overthewire/
+
 tryhackme/
 
-
+---
 All challenges are completed within legal training environments and public CTF platforms.
 
 This repository serves as a public record of technical growth in offensive security and systems understanding.
