@@ -1,6 +1,6 @@
 # Cybersecurity Writeups
 
-This repository contains documented writeups from hands-on cybersecurity training platforms and CTF competitions.
+This repository contains documented "writeups" from hands-on cybersecurity training platforms and CTF competitions.
 
 ## Platforms
 - picoCTF
@@ -8,12 +8,7 @@ This repository contains documented writeups from hands-on cybersecurity trainin
 - Hack The Box (HTB)
 - TryHackMe
 
-Each writeup outlines:
-- Problem summary
-- Attack methodology
-- Commands and tools used
-- Core vulnerability or security concept
-- Lessons learned
+Each writeup contains my thought process, mistakes, takeaways, and other important aspects of the problem.
 
 ## Structure
 
@@ -26,6 +21,4 @@ overthewire/
 tryhackme/
 
 ---
-All challenges are completed within legal training environments and public CTF platforms.
-
-This repository serves as a public record of technical growth in offensive security and systems understanding.
+All challenges are completed legally in learning environments. 
