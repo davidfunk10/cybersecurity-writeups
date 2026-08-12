@@ -1,0 +1,5 @@
+## Take Over (TryHackMe, Easy)
+
+For this room, I first added the host to /etc/hosts, so my machine knew how to convert the hostname to its IP address. Then, I ran a vHost enumeration on futurevera.thm, finding support.futurevera.thm. After that, I ran an openssl command to check the TLS certificate of this new hostname and found another secret hostname. I figured out that on HTTPS, the new secret hostname hosted the same content as the original, so I decided to curl the new secret hostname through HTTP instead of HTTPS. Because Apache can actually have different virtual host configurations on different ports of the same host (80 vs 443), I was able to find the flag after curling it on port 80.
+
+Through this room, I also understood the importance of adding every new subdomain into /etc/hosts, so my machine could create a local hostname-to-IP mapping and actually know where to send requests when I opened the webpages.

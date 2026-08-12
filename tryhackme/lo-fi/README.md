@@ -1,0 +1,3 @@
+## Lo-Fi (TryHackMe, Easy)
+
+For this room, I began by checking out the web server on Firefox. I noticed that the server was taking direct input from the URL (via `?page=`) to load local files onto the site. I took advantage of this Local File Inclusion vulnerability by inserting a long list of `../` into the URL until I was safely out of the web directory into the root directory of the server. After I was in the root directory, I tacked on a `flag.txt` to the end of my long line of `../../../` and subsequently the flag was displayed directly on the site. This challenge helped me understand the relationship between navigating a server's webservers directories and navigating the server's directories themselves.
