@@ -1,0 +1,3 @@
+## Neighbour (TryHackMe, Easy)
+
+For this room, I started out by inspecting the source code of the webpage and found guest credentials and an admin username. Using the guest credentials, I logged into the guest account and then noticed the URL had ?user=guest. I immediately took advantage of this and typed ?user=admin instead, and because the backend did not check if I had provided the admin password, I was given access to the admin account and shown the flag. This room explained to me the importance of limiting horizontal and vertical privelege escalation by patching IDOR vulnerabilities like this.
