@@ -4,7 +4,6 @@ This repository contains documented "writeups" from hands-on cybersecurity train
 
 ## Platforms
 - picoCTF
-- OverTheWire
 - Hack The Box (HTB)
 - TryHackMe
 
@@ -15,8 +14,6 @@ Each writeup contains my thought process, mistakes, takeaways, and other importa
 htb/
 
 picoctf/
-
-overthewire/
 
 tryhackme/
 
