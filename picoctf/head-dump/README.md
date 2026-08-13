@@ -1,0 +1,3 @@
+## Head Dump (picoCTF, Web Exploitation, Easy)
+
+For this challenge, I was initially given a simple blog site. There were notes about API documentation that allowed the user to run many different functions, including a heap dump. I ran a heap dump, and downloaded the long text file afterwards. After grepping for the flag, I found it, and cracked the challenge. This challenge taught me the importance of making sure diagnostic endpoints like heap dumps are not exposed to unauthenticated users or else very harmful data leak will happen. I also learned that the heap is kind of like the long term storage unit for websites, like a kitchen. This cleared up some confusion for me between the difference of a stack and heap.
